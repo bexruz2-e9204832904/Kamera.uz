@@ -1,0 +1,46 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+
+
+.carousel-image-2 {
+  background: url(5.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: contain;
+
+}
+
+.carousel-image-3 {
+  background: url(photo_2022-08-21_17-42-09.jpg);
+  background-size: cover;
+}
+@media screen and (max-width: 800px) {
+  .carousel-image-2 {
+    background: url(dbb.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+  margin-top: 70px;
+  margin-bottom: -200px;
+  }
+}
+
+
+
